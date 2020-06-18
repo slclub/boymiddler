@@ -8,6 +8,7 @@ Jwt secret login and validate auth.
 - [JWTPass(encryption secret)](#j-w-t-pass)
   - [LoginWithToken](#login-with-token)
   - [AutoToken](#auth-token)
+  - [Setting]
 
 ## Coding
 
@@ -84,4 +85,17 @@ auth.AuthHandle()
 ```go
     //  Using routing middlerware directly.                                                                                                                                                                                     
     grouter.Group.Use(auth.MiddlerAuth())
+```
+
+### Setting
+
+Set encryption secret.
+
+```go
+// Set encryption secret.
+auth.SetSecret(secret string)
+```
+
+```go
+auth.SetIssuer(ussuer string)
 ```
