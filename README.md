@@ -8,7 +8,7 @@ Jwt secret login and validate auth.
 - [JWTPass(encryption secret)](#j-w-t-pass)
   - [LoginWithToken](#login-with-token)
   - [AutoToken](#auth-token)
-  - [Setting]
+  - [Setting](#setting)
 
 ## Coding
 
