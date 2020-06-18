@@ -43,7 +43,9 @@ func (jp *JWTPass) Initialize() {
 	jp.timeout = 3 * time.Hour
 	jp.issuer = "boy"
 	jp.check_handle = func(username, password string) bool { return true }
-	jp.res_handle = func(ctx gnet.Contexter, data map[string]interface{}) {}
+	jp.res_handle = func(ctx gnet.Contexter, data map[string]interface{}) {
+		ctx.Data(data).Echo()
+	}
 }
 
 //  generate token by paramters.

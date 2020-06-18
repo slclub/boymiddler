@@ -172,6 +172,8 @@ github.com/slclub/gnet v0.0.0-20200611112313-9d4673ce2c97/go.mod h1:Rq2Nutl5pLxK
 github.com/slclub/gnet v0.0.0-20200612090459-f1df588869fe/go.mod h1:Rq2Nutl5pLxK/AkwGIWsVKurz8FcNbbC15ITH+oHiSA=
 github.com/slclub/gnet v0.0.0-20200617032213-867582be1486 h1:Im3cZQxywnexS+IIOSBARaLiENObGG2J5gIk1eapCWQ=
 github.com/slclub/gnet v0.0.0-20200617032213-867582be1486/go.mod h1:Rq2Nutl5pLxK/AkwGIWsVKurz8FcNbbC15ITH+oHiSA=
+github.com/slclub/gnet v0.0.2 h1:MHo/Xkv+7aUXlq3DqKJOW+AT4K2ktyMyoXq4GN+6E8o=
+github.com/slclub/gnet v0.0.2/go.mod h1:W1niGSW98xe7avDBlHEcLtiBt/zvScMt40SmZNGs2Ts=
 github.com/slclub/goqueue v0.0.4 h1:2lyYr243RLUYdrcv7KCHmRwfQVjXHt86O61hav/co7A=
 github.com/slclub/goqueue v0.0.4/go.mod h1:5Pm6g6fWEMUZTQvZqUHyKygdV4VEqHO3joxCoDYFj5Q=
 github.com/slclub/grouter v0.0.0-20200608154541-6a3fcf1718e0/go.mod h1:biIOH/sx78aJxd6Oc9Ho/svruy2IW/GBFR7FugHvLIA=
